@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #1f1f1f;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.project-link {
+    padding: 12px 24px;
+    border: 1px solid #494949;
+    color: #494949;
+    text-decoration: none;
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.project-link:hover {
+    transform: translateY(-10px);
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+}
